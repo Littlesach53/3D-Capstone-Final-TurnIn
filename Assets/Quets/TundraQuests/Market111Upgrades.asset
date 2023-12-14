@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: Market111Upgrades
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Hello there! I've been thinking about the village market, and I believe it's
+    time for an upgrade. Do you think you could lend a hand?
+  - Well, you see, our current market stalls are a bit worn, and the layout could
+    be more efficient. I'm thinking we need new sturdy timber for the stalls, some
+    colorful fabrics for decorations, and perhaps a skilled planner to help redesign
+    the layout.
+  - 'anything you can do to help would be greatly appriciated. do you think you can
+    lend a hand? '
+  acceptOption: 'Yes I can help with that. '
+  acceptAnswer: 'ok great after your done come see me for a reward '
+  declineOption: Sorry I can't right now.
+  declineAnswer: oh well thats too bad.
+  comebackAfterDecline: Have you changed your mind?
+  comebackInProgress: you still need more materials
+  comebackCompleted: 'thanks so much now our village can thrive even more. '
+  finalWords: thanks again
+  coinReward: 0
+  rewardItem1: Emerald Ingot
+  rewardItem2: Gold Ingot
+  firstRequirmentItem: 
+  firstRequirementAmount: 0
+  secondRequirmentItem: 
+  secondRequirementAmount: 0
+  hasCheckpoints: 1
+  checkpoints:
+  - {fileID: 11400000, guid: a5eecf638ed9faa49864f4151e510020, type: 2}

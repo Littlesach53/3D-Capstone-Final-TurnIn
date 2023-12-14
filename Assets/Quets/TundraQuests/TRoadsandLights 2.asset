@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: TRoadsandLights 2
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Hello again traveller, you did a woderful job building that church for use. I
+    got anothe task for you.
+  - 'this village is baren with no lights or walkways in sight. '
+  - Do you think you can aid in this problem and help build us so infrustructure?
+  acceptOption: Yes I would be happy to help.
+  acceptAnswer: 'Great go to the different Signal posts to find what is needed to
+    build the villages infrustructure. come back to me when your done for a Reward. '
+  declineOption: 'I can''t right now '
+  declineAnswer: 'oh well if you change your mind come see me. '
+  comebackAfterDecline: Have you decided to help?
+  comebackInProgress: 'You still need to build the Roads and Lights. '
+  comebackCompleted: 'Great job, now we can see at night. your reward as promised. '
+  finalWords: If you need more work come back and see me.
+  coinReward: 0
+  rewardItem1: Polymer
+  rewardItem2: Polymer
+  firstRequirmentItem: 
+  firstRequirementAmount: 0
+  secondRequirmentItem: 
+  secondRequirementAmount: 0
+  hasCheckpoints: 1
+  checkpoints:
+  - {fileID: 11400000, guid: a9c6f34a66112604793822d8b3bad4d2, type: 2}
+  - {fileID: 11400000, guid: f28a529d10a9e6647b40312c1b4397e3, type: 2}

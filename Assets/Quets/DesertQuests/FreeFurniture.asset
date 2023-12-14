@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: FreeFurniture
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Hey there! I've been thinking of making a few improvements to my home, and I
+    was wondering if you could lend a hand.
+  - Well, you see, my humble abode could really use a nice table and a sink. A cozy
+    place to eat and a convenient spot to wash up.
+  - Something simple and sturdy would be perfect. For the table, maybe a nice wooden
+    one, and for the sink, just something functional with a bit of charm.
+  - You think you could help me?
+  acceptOption: Sure how should I get these items
+  acceptAnswer: Thank you so much! just find the materials and craft them yourself
+    then bring them back to me.  I can't wait to have a cozy dining space and a convenient
+    place to clean up. It'll make my home feel much more welcoming.
+  declineOption: Sorry I can't right now
+  declineAnswer: Oh darn well I guess I'll keep eating on the floor.
+  comebackAfterDecline: Have you changed your mind about helping me?
+  comebackInProgress: I still need those pieces of furniture
+  comebackCompleted: 'Oh thank you so much they look great. now if you will exuse
+    me I need to go wash some dishes. '
+  finalWords: thanks again for all the help.
+  coinReward: 0
+  rewardItem1: Iron Beams
+  rewardItem2: Fabric
+  firstRequirmentItem: Table
+  firstRequirementAmount: 1
+  secondRequirmentItem: Sink
+  secondRequirementAmount: 1
+  hasCheckpoints: 0
+  checkpoints: []

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: VillagerHouse4 Upgrade
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Hey there, stranger! I've got a bit of a situation, and I'm hoping you might
+    be able to lend a hand.
+  - 'So, you see, I''ve been trying to build a new house for myself, but gathering
+    all the materials is proving to be a bit overwhelming. I''ve got the plans, but
+    I''m short on a few materials. '
+  - Do you think you could help me finish my home?
+  acceptOption: I can help you with that. What do you need?
+  acceptAnswer: 'Oh, bless your heart! Look at the house behind me to see the building
+    plans. '
+  declineOption: 'Sorry I''m to busy right now. '
+  declineAnswer: 'Oh, well if you change your mind come back and see me. '
+  comebackAfterDecline: Are you able to help me build my home now?
+  comebackInProgress: Oh you must not have enough materials yet.
+  comebackCompleted: Oh thank you so much heres a reward for all the help.
+  finalWords: 'I''m so happy I can finally sleep in an actual bed. '
+  coinReward: 0
+  rewardItem1: Gold Ingot
+  rewardItem2: Batteries
+  firstRequirmentItem: 
+  firstRequirementAmount: 0
+  secondRequirmentItem: 
+  secondRequirementAmount: 0
+  hasCheckpoints: 1
+  checkpoints:
+  - {fileID: 11400000, guid: 360e62b76eed7ab4a93c50fe3b5a0a97, type: 2}

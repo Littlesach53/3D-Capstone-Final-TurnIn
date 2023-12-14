@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: GatherSuppliess
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Hello again I have one last thing to ask of you.
+  - our town is in great need of some valuable ingots to help build our treasury.
+  - 'do you think you could help gather the needed ingots for me, I mean the town. '
+  acceptOption: 'Sure I can help. '
+  acceptAnswer: 'Oh greatly appriciated. just find the raw ore then go to the Forge
+    located at the top of a mountain in the Grasslands, smelt it and bring it back
+    to me '
+  declineOption: 'no I would rather not go that far '
+  declineAnswer: 'oh well when you want to contribute come see me. '
+  comebackAfterDecline: Have you changed your tone about helping me?
+  comebackInProgress: Will you hurry and bring me the supplies I asked for.
+  comebackCompleted: 'thank you so much these supplies will definetly be put to good
+    use. '
+  finalWords: 'Thanks again for all your help. '
+  coinReward: 0
+  rewardItem1: Soda
+  rewardItem2: CookedMeat
+  firstRequirmentItem: Gold Ingot
+  firstRequirementAmount: 2
+  secondRequirmentItem: Emerald Ingot
+  secondRequirementAmount: 1
+  hasCheckpoints: 0
+  checkpoints: []

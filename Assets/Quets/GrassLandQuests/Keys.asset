@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: Keys
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - oh Hello again, I have another favor to ask.
+  - You see, I was fishing the other day in the river and when I got back my house
+    key was missing.
+  - 'I belive I might have dropped it in the river somewhere. can you help me find
+    it? '
+  acceptOption: 'Yes I will help you find that '
+  acceptAnswer: Oh great I cant wait to be able to get in my house again
+  declineOption: Sorry I don't have the time for that right now.
+  declineAnswer: oh its ok, come back if you find the time;
+  comebackAfterDecline: 'have you changed your mind? '
+  comebackInProgress: I still need that Key
+  comebackCompleted: You found it Praise the lord, now I can finally sleep in my
+    bed again.
+  finalWords: 'thank you for all your help '
+  coinReward: 0
+  rewardItem1: Water
+  rewardItem2: Melon
+  firstRequirmentItem: Key
+  firstRequirementAmount: 1
+  secondRequirmentItem: 
+  secondRequirementAmount: 0
+  hasCheckpoints: 0
+  checkpoints: []

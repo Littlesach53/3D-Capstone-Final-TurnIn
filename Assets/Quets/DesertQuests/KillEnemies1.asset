@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: KillEnemies1
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Greetings traveler I am Mayor Steven I am the leader of this little town.
+  - 'we have been having a large pest problem as of late and are looking for a brave
+    soul to get rid of them. '
+  - Do you think you are up to the task?
+  acceptOption: Yes I would be happy to help
+  acceptAnswer: Great just go beyond the outposst, find some of those rechetd creatures,
+    kill them and bring me their components.
+  declineOption: No that sounds Scary.
+  declineAnswer: 'Oh well I guess I''ll just keep looking for that truly brave soul. '
+  comebackAfterDecline: have you toughened up enough for the job?
+  comebackInProgress: I still need those pests gone
+  comebackCompleted: 'Oh your back well thats terrific, I won''t lie I didn''t think
+    you could do it, anyway here is a reward for your troubles. '
+  finalWords: 'if you need anymore work come back and see me. '
+  coinReward: 0
+  rewardItem1: Components
+  rewardItem2: Polymer
+  firstRequirmentItem: Components
+  firstRequirementAmount: 2
+  secondRequirmentItem: Polymer
+  secondRequirementAmount: 3
+  hasCheckpoints: 0
+  checkpoints: []

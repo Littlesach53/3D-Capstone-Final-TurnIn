@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: VillagerTrohpie
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Oh, hello there. No, everything's not alright. I've lost something very dear
+    to me.
+  - my prized trophy! A family heirloom. I had it displayed on the mantelpiece, and
+    now it's gone. I've searched everywhere, but I just can't find it.
+  - ' I last remember having it in my house. I''m not sure if I misplaced it or if
+    someone took it. I''ve asked around, but no one seems to have seen anything.'
+  - 'Can you help me find it? '
+  acceptOption: 'Yes I can help locate your trophy what does it look like? '
+  acceptAnswer: thank you, its a small trophy made of Iron.
+  declineOption: Sorry I can't at the moment
+  declineAnswer: 'Oh well I guess I''ll keep looking. '
+  comebackAfterDecline: I still can't find that darn thing, can you help me now?
+  comebackInProgress: Still haven't found it yet?
+  comebackCompleted: 'Hurray you found it, thank you so much. Here take this for
+    your trouble. '
+  finalWords: 'My father will be so happy.... He might even Hug me. '
+  coinReward: 0
+  rewardItem1: Gold Ingot
+  rewardItem2: 
+  firstRequirmentItem: Trophy
+  firstRequirementAmount: 1
+  secondRequirmentItem: 
+  secondRequirementAmount: 0
+  hasCheckpoints: 0
+  checkpoints: []

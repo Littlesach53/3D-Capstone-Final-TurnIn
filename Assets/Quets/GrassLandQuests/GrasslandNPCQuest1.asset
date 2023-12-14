@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: GrasslandNPCQuest1
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - ' Greetings, adventurer! I''m in dire need of animal hides for my leatherworking.
+    The local wildlife has become a bit too bold, and I can''t gather the materials
+    myself. Can you help?'
+  - The Grasslands  just beyond the village are teeming with wildlife. you can find
+    Sheep, Rabbits and even Goats roaming the area.
+  - 'Be cautious, though; there are also creaters out there that are agressive and
+    will attack on site. '
+  - I need 5 animall hide can you help?
+  acceptOption: Yes I can help, I'll get to work on gathering those hides.
+  acceptAnswer: 'Oh thank you very much, bring them back here when you are done and
+    I will be sure to give you adequate compensation for your work. '
+  declineOption: Sorry, I cant right now.
+  declineAnswer: 'Well if you change your mind I will be right here. '
+  comebackAfterDecline: Have you cahnge your mind about gather animal hides for me?
+  comebackInProgress: Come back when you have finished gathering those hides?
+  comebackCompleted: 'Oh your back, I wont lie I wasn''t sure you could it but im
+    sure glad you did. as promised your reward. '
+  finalWords: 'if you ever need more work come back here and Ill find you somthing
+    to do. '
+  coinReward: 0
+  rewardItem1: Fabric
+  rewardItem2: Fabric
+  firstRequirmentItem: Hide
+  firstRequirementAmount: 5
+  secondRequirmentItem: 
+  secondRequirementAmount: 0

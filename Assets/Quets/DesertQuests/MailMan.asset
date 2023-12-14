@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: MailMan
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Ah, young traveler, could I trouble you for a moment?
+  - You see, my knees aren't what they used to be, and the postman brought a letter
+    for me from the neighboring town. I'm afraid I can't make the journey myself.
+  acceptOption: Yes I would be happy to go retrive that mail for you.
+  acceptAnswer: oh wonderful Just head to the grasslands outpost and grab the piece
+    of mail from the storage box near the market and bring it back to me.
+  declineOption: Sorry I don't have the time.
+  declineAnswer: oh well I guess this village will have to go without mail this week
+  comebackAfterDecline: 'Have you decided to go get that mail for me '
+  comebackInProgress: I still need that mail
+  comebackCompleted: Thank you so much you have saved my knees greatly Heres a Soda
+    for your troubles.
+  finalWords: Thanks again come back for more mail work.
+  coinReward: 0
+  rewardItem1: Soda
+  rewardItem2: 
+  firstRequirmentItem: Mail
+  firstRequirementAmount: 1
+  secondRequirmentItem: 
+  secondRequirementAmount: 0
+  hasCheckpoints: 0
+  checkpoints: []

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: DeliverMail
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Hi, there I am the mail man for this district. I have a favor to ask?
+  - I recentlly hurt my leg going out to the Tundra Outpost and now cant make the
+    journey.
+  - Do you think you could deliver this letter to the outpost box for me?
+  acceptOption: Yes of course I can.
+  acceptAnswer: well thank you return to me when your done for a nice reward
+  declineOption: No I can't go that far.
+  declineAnswer: 'oh well if you change your mind come see me. '
+  comebackAfterDecline: 
+  comebackInProgress: 
+  comebackCompleted: 
+  finalWords: 
+  coinReward: 0
+  rewardItem1: Bandage
+  rewardItem2: Bandage
+  firstRequirmentItem: 
+  firstRequirementAmount: 0
+  secondRequirmentItem: 
+  secondRequirementAmount: 0
+  hasCheckpoints: 0
+  checkpoints:
+  - {fileID: 11400000, guid: ea6ff5a075f6354468b49225e3a549b7, type: 2}

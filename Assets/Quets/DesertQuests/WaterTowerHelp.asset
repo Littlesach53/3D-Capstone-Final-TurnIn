@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead0b0cd54f49a24fae9b442932d3327, type: 3}
+  m_Name: WaterTowerHelp
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Hey there! I've been meaning to talk to someone about a little issue we've got
+    in the village.
+  - Our water source, you see, it's not as reliable as it used to be. We often run
+    out, especially in the hotter months, and I was wondering if you could help us
+    upgrade it.
+  acceptOption: 'Of course I can help, what do I need to do? '
+  acceptAnswer: 'Great just gather the necessary materials and when your done come
+    back to me and we can test it out. '
+  declineOption: 'Sorry don''t have the time. '
+  declineAnswer: Oh well if you change your mind we could really use the help
+  comebackAfterDecline: have you changed your mind about our water crisis
+  comebackInProgress: 'You still don''t have enough materials '
+  comebackCompleted: Great now we finally have enough water for evryone. here take
+    some with you traveller.
+  finalWords: 'thanks again Farewell. '
+  coinReward: 0
+  rewardItem1: Water
+  rewardItem2: Water
+  firstRequirmentItem: 
+  firstRequirementAmount: 0
+  secondRequirmentItem: 
+  secondRequirementAmount: 0
+  hasCheckpoints: 1
+  checkpoints:
+  - {fileID: 11400000, guid: 4c3474a9634bd5a40b2aaa8f7067a94f, type: 2}
